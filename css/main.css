@@ -1,0 +1,132 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 220px;
+  font-family: 'Open Sans', sans-serif;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 220px;
+  background-color: #333;
+  color: #efefef;
+  padding: 30px 0;
+}
+@media only screen and (max-width: 768px) {
+  body { margin-bottom: 400px; }
+  .footer { height: 400px; }
+}
+
+
+/* Core Bootstrap */
+.container {
+  max-width: 960px; 
+}
+.row {
+  margin-bottom: 20px;
+}
+.well {
+  background-color: transparent;
+}
+.lead {
+  color: #555;
+}
+
+/* General */
+a:hover {
+  text-decoration: underline;
+}
+.list-divided {
+  margin-bottom: 1em;
+}
+.list-divided li {
+  border-right: 1px solid #ddd;
+}
+.list-divided li:last-child {
+  border-right: none;
+}
+.btn-lg {
+  padding: 14px 20px;
+  margin-right: 20px
+}
+
+
+/* Core Site */
+/** Navigation **/
+.navbar {
+  background-color: rgb(51, 122, 183);
+}
+.navbar a {
+  color: #d8e6f3;
+}
+.navbar a:hover {
+  color: #fff;
+}
+.navbar .nav a:hover, 
+.navbar .nav .open > a,
+.navbar .nav a.active,
+.navbar .nav a:focus {
+  background-color: #204d74;
+  color: #fff;
+}
+.navbar .navbar-toggle .icon-bar {
+  background-color: #f0f0f0;
+}
+
+
+/* index.html */
+.features .glyphicon {
+  font-size: 32px;
+}
+
+
+/* about.html */
+.about .fa-rocket {
+  font-size: 64px;
+  color: #444;
+}
+
+/** posts specific **/
+.posts {
+  margin-bottom: 20px;
+}
+.posts .post {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 20px;
+}
+.posts .post:last-child {
+  border-bottom: none;
+}
+
+/** Post Specific **/
+.post h1 a {
+  color: #333;
+  font-weight: bold;
+}
+.post .meta {
+  color: #777;
+  font-size: 14px
+}
+.post .meta .glyphicon-tags {
+  padding-right: .5em;
+}
+
+.post .post-content {
+  font-size: 17px;
+  line-height: 24px;
+}
+
+/** Footer **/
+.footer a {
+  color: #639bcf;
+}
+.footer a:hover {
+  color: #d8e6f3;
+}
